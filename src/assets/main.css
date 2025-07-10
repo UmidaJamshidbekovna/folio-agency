@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
+@import 'animate.css';
+
+
+
+*, body {
+  font-family: 'Roboto', sans-serif;
+}
 
 .container {
-    @apply w-full max-w-screen-xl mx-auto px-1;
-  }
+  @apply w-full max-w-screen-xl mx-auto px-2 py-4;
+}
